@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.input {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+input {
+    font-size: 16px;
+    padding: 5px;
+    width: 50px;
+}
+
+button {
+    font-size: 16px;
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.choice {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#choicecomputer {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#output {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#vincitore {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #3498db;
+}

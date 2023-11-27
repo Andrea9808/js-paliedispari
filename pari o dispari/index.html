@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pari o dispari</title>
 </head>
+
 <body>
-    
 
+    <div class="input">
+        <label for="usernumber">Inserisci un numero da 1 a 5:</label>
+        <input type="number" id="inputnumber" min="1" max="5">
+        <button id="button">Gioca!</button>
+    </div>
 
+    <div class="choice">
+        <span id="choicecomputer"></span>
+        <p>Risultato: <span id="output"></span></p>
+    </div>
+
+    <h1 id="vincitore"></h1>
+
+    <!-- script -->
     <script src="script.js"></script>
+
 </body>
+
 </html>
